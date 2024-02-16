@@ -1,7 +1,7 @@
 import Link from "next/link";
 const NavBar = () => {
   return (
-    <div className="bg-blue-950 text-[#efefef] h-[70px] w-full py-2 px-6 flex justify-center">
+    <div className="bg-blue-950 text-[#efefef] fixed h-[70px] w-full py-2 px-6 flex justify-center">
       <div className="h-full w-10/12 my-auto flex justify-between items-center">
         {/* left */}
         <h2 className="text-4xl">

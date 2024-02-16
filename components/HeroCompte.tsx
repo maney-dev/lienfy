@@ -14,9 +14,9 @@ const HeroCompte = () => {
         <div className=" pb-9 w-96">
           <label className="w-full ml-20 " htmlFor="">
             {" "}
-            Entrer le lien à raccourcir
+            <p className="pl-24">Entrer le lien à raccourcir</p> <br />
             <input
-              className=" ml-20 box-border border py-5 w-[1230px]"
+              className=" px-4 ml-20 rounded-2xl  border py-5 w-[1230px]"
               type="text"
               id="url"
               name="url"
@@ -25,7 +25,7 @@ const HeroCompte = () => {
           </label>
         </div>
         <div className="button">
-          <button className=" ml-20 mt-20 mb-8  bg-orange-500  text-white text-[18px] px-8 py-2 rounded-lg transition-all hover:bg-orange-500">
+          <button className=" h-14 ml-20 mt-20 mb-8  bg-orange-500  text-white text-[18px] px-8 py-2 rounded-lg transition-all hover:bg-orange-500">
             Inscrivez-vous gratuitement et commencez à raccourcir vos liens !
           </button>
         </div>

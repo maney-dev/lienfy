@@ -22,8 +22,10 @@ const Footer = () => {
           <br />
           <div>
             <p>
-              <span>Phone:</span> +221 77 860 60 64 <br />
-              <span>Email:</span> xaralatech@gmail.com
+              <span className="text-xl text-slate-300">Phone:</span> +221 77 860
+              60 64 <br />
+              <span className="text-xl text-slate-300">Email:</span>{" "}
+              xaralatech@gmail.com
             </p>
           </div>
         </div>

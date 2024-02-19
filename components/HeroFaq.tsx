@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroFaq = () => {
   return (
-    <div className="bg-[#FCFCFC] h-[60%]">
+    <div className="bg-[#FCFCFC] h-[100%]">
       <div className="bt-10 py-11">
         <div className="flex justify-center item-center">
           <h2 className="text-4xl mt-8 mb-8 font-bold">FAQ</h2>

@@ -4,10 +4,10 @@ import link_lienfy from "../public/assets/Link.png";
 
 const HeroLink = () => {
   return (
-    <div className="bg-[#FFFFFF] flex justify-between mx-72 gap-60 h-[80%] py-7">
+    <div className="bg-[#FFFFFF] flex justify-between mx-72 gap-60 h-[100%] py-7">
       <div className="justify-between items-center">
         <div>
-          <div className="justify-center item-center">
+          <div className="justify-center items-center">
             <h2 className="text-4xl mt-8 mb-8 font-bold">
               Reduisez la longueur de vos liens d’un seul clic !
             </h2>

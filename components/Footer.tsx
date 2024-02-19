@@ -28,7 +28,8 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className="block gap-10">
+          <div className="block gap-10 text-gray-400">
+            <p className="text-white">Lienfy</p> <br />
             <p>Accueil</p> <br />
             <p>C’est quoi lienfy ?</p> <br />
             <p>Blog</p> <br />

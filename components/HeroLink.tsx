@@ -17,7 +17,10 @@ const HeroLink = () => {
             </p>
           </div>
           <div className="button">
-            <button className=" mt-20 mb-8  bg-orange-500  text-white text-[18px] px-8 py-5 rounded-lg transition-all hover:bg-orange-500">
+            <button
+              type="submit"
+              className=" mt-20 mb-8  bg-orange-500  text-white text-[18px] px-8 py-5 rounded-lg transition-all hover:bg-orange-500"
+            >
               Raccourcir votre lien
             </button>
           </div>

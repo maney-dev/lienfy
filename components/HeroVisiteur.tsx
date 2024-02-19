@@ -11,13 +11,13 @@ const HeroVisiteur = () => {
           Ce que disent nos visiteurs
         </h2>
       </div>
-      <div className="flex items-center justify-between gap-14 px-56">
+      <div className="flex items-center justify-between gap-14 px-56 relative">
         <div className="bloc justify-between items-center rounded-3xl h-[500px] bg-[#FFFFFF] shadow-md text-xl">
           <div className="flex justify-center items-center">
             <Image
               className="absolute object-cover "
               src={Cody_Fisher}
-              alt=""
+              alt="Cody_Fisher"
             />
           </div>
           <div className="pt-16 pb-2">
@@ -41,7 +41,7 @@ const HeroVisiteur = () => {
             <Image
               className="absolute object-cover "
               src={Kristin_Waston}
-              alt=""
+              alt="Kristin_Waston"
             />
           </div>
           <div className="pt-16 pb-2">
@@ -66,7 +66,7 @@ const HeroVisiteur = () => {
             <Image
               className="absolute object-cover "
               src={Jerome_Bell}
-              alt=""
+              alt="Jerome_Bell"
             />
           </div>
           <div className=" pt-16 pb-2">

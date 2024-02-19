@@ -17,7 +17,10 @@ const Hero = () => {
             <br />
             Raccourcissez vos liens et faciliter vos partage url.
           </p>
-          <button className="mt-20 h-16 bg-orange-500  text-white text-[18px] px-8 py-2 rounded-lg transition-all hover:bg-orange-500">
+          <button
+            type="submit"
+            className="mt-20 h-16 bg-orange-500  text-white text-[18px] px-8 py-2 rounded-lg transition-all hover:bg-orange-500"
+          >
             Commencer gratuitement
           </button>
         </div>

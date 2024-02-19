@@ -19,7 +19,10 @@ const HeroCompte = () => {
                 name="url"
                 placeholder="https : // aefrduje458gfghgjGJKfvv7azeegbk;ckbldjdtkgllgl"
               />
-              <button className="bg-orange-500  text-white text-[18px] px-8 py-6 mt-16 rounded-lg transition-all hover:bg-orange-500">
+              <button
+                type="submit"
+                className="bg-orange-500  text-white text-[18px] px-8 py-6 mt-16 rounded-lg transition-all hover:bg-orange-500"
+              >
                 Inscrivez-vous gratuitement et commencez à raccourcir vos liens
                 !
               </button>
